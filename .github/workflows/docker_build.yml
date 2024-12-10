@@ -29,7 +29,8 @@ jobs:
           context: ./
           push: true
           # dockerfile: ./Dockerfile   # Specify the path to your Dockerfile se necessário
-          tags: webacademy:latest
+          tags: 
+            thiagomartins864/webacademy:latest
 
   deploy:
     runs-on: ubuntu-latest
